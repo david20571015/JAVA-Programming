@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <center>
+      <Canvas fx:id="canvas" height="462.0" width="480.0" />
+   </center>
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button fx:id="lineButton" mnemonicParsing="false" onAction="#onLineButtonClick" text="Draw Lines" />
+          <Button fx:id="arcButton" mnemonicParsing="false" onAction="#onArcButtonClick" text="Draw Arcs" />
+        </items>
+      </ToolBar>
+   </top>
+</BorderPane>

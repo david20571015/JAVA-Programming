@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="874.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="229.0" fitWidth="224.0" layoutX="49.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@android.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="224.0" layoutX="339.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@google.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="229.0" fitWidth="224.0" layoutX="632.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tensorflow.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="104.0" layoutY="409.0" text="Andriod">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="399.0" layoutY="409.0" text="Google">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="661.0" layoutY="409.0" text="Tensorflow">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
